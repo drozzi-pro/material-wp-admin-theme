@@ -1,0 +1,81 @@
+.reduk-container-slider {
+    .reduk-slider-container {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .reduk-slider-input,
+    .reduk-slider-select-one,
+    .reduk-slider-select-two {
+        width: 100px !important;
+        text-align: center;
+    }
+
+    .reduk-slider-label {
+        position: absolute;
+        margin-left: -5px;
+    }
+
+    .reduk-slider-label-one {
+        position: absolute;
+        margin-left: -22px;
+    }
+
+    .reduk-slider-label-two {
+        position: absolute;
+        margin-top: -21px;
+        margin-left: 245px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .reduk-container-slider {
+        input {
+            display: inline-block !important;
+        }
+    }
+}
+
+// Select Slider
+@media screen and (max-width: 570px) {
+    .reduk-container-slider {
+        text-align: center;
+
+        input,
+        select,
+        .reduk-slider-label,
+        .select2-container {
+            display: block !important;
+            position: inherit;
+            margin: 10px auto;
+        }
+
+        .reduk-slider-container {
+            margin-top: 3px;
+            width: 80%;
+        }
+    }
+}
+
+.wp-customizer {
+    .reduk-container-slider {
+        .reduk-slider-label {
+            float: left;
+            position: inherit;
+            width: 25%;
+            text-align: center;
+            margin-left:0;
+        }
+        .reduk-slider-input, .reduk-slider-select-one, .reduk-slider-select-two {
+            width: 25% !important;
+        }
+        .reduk-slider-container {
+            width: 70%;
+            margin-right: 0;
+            margin-left: 5%;
+        }
+    }
+}

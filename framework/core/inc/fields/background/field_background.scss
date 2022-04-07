@@ -1,0 +1,59 @@
+.reduk-main {
+    .reduk-container-background {
+        .reduk-background-position,
+        .reduk-background-position select,
+        .reduk-background-attachment,
+        .reduk-background-attachment select,
+        .reduk-background-clip,
+        .reduk-background-clip select,
+        .reduk-background-origin,
+        .reduk-background-origin select,
+        .reduk-background-size,
+        .reduk-background-size select,
+        .reduk-background-repeat,
+        .reduk-background-repeat select {
+            width:200px !important;
+            margin-right: 10px;
+            margin-bottom: 7px;
+        }
+
+        .background-preview {
+            display:block;
+            width: 100%;
+            margin: 5px 0 10px;
+            border:1px dotted lightgray;
+        }
+
+        .select2-container {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .wp-picker-container {
+            margin-bottom: 10px;
+        }
+
+        .upload {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+
+    .reduk-container-select {
+        li.ui-state-highlight {
+            height: 20px;
+            margin-top:2px;
+            margin-left: 5px;
+            width: 64px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.wp-customizer {
+    .reduk-container-background {
+        .reduk-background-position, .reduk-background-position select, .reduk-background-attachment, .reduk-background-attachment select, .reduk-background-clip, .reduk-background-clip select, .reduk-background-origin, .reduk-background-origin select, .reduk-background-size, .reduk-background-size select, .reduk-background-repeat, .reduk-background-repeat select {
+            width: 100% !important;
+        }
+    }
+}

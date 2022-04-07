@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mtrl-wid-box span.avatar {
+  box-shadow: 0 2px 3px -2px #000000;
+  display: block;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+
+.mtrl-wid-box span.avatar i {
+  background: url("star-user.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 0;
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  width: 20px;
+}
+
+
+
+
+.mtrl-wid-box span.isunique-no, .mtrl-wid-box span.isunique-yes, .mtrl-wid-box span.isunique- {
+  display: block;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #DDDDDD;
+}
+.mtrl-wid-box span.isunique-no, .mtrl-wid-box span.isunique-yes {
+  background: url("isunique-no.png") no-repeat scroll 0px 0px rgba(0, 0, 0, 0);
+}
+
+.mtrl-wid-box span.isunique-yes {
+  background: url("isunique-yes.png") no-repeat scroll 0px 0px rgba(0, 0, 0, 0);
+}
+
+.mtrl-wid-box span.isunique- {
+  background: url("isunique-.png") no-repeat scroll 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+
+
+.totalviewscount,
+.onlinecount{
+	display: inline-block;
+	width: 50%;
+}
+
+.totalviewscount{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding-right: 15px;
+}
+
+.totalviewscount .count,
+.onlinecount .count{
+  font-size: 37px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.onlinecount span{
+	float: left;
+	line-height: 19px;
+	font-size: 12px;
+}
+.onlinelabel{
+	margin-top: 8px;
+}
+.totalviewscount span{
+	float: right;
+	line-height: 19px;
+	font-size: 12px;
+}
+.viewslabel{
+	margin-top: 8px;
+}
+
+
+
+.mtrl-stats .visitors .flag{
+	display:block;
+	}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+.platform {
+  background: url("platform/unknown.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 25px;
+  max-width: 60px;
+
+}
+
+.platform.Windows {
+  background: url("platform/Windows.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.Apple {
+  background: url("platform/Apple.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.platform.Linux {
+  background: url("platform/Linux.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.iPhone {
+  background: url("platform/iPhone.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+.platform.iPod {
+  background: url("platform/iPod.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+.platform.BlackBerry {
+  background: url("platform/BlackBerry.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+.platform.Nokia {
+  background: url("platform/Nokia.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.FreeBSD {
+  background: url("platform/FreeBSD.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.OpenBSD {
+  background: url("platform/OpenBSD.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.NetBSD {
+  background: url("platform/NetBSD.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.SunOS {
+  background: url("platform/SunOS.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.OpenSolaris {
+  background: url("platform/OpenSolaris.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.Android {
+  background: url("platform/Android.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.platform.unknown {
+  background: url("platform/unknown.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.browser {
+  background: url("browser/unknown.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 25px;
+
+}
+
+.browser.Firefox{
+	background: url("browser/Firefox.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Opera{
+	background: url("browser/Opera.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+.browser.Internet-Explorer{
+	background: url("browser/Internet-Explorer.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Pocket-Internet-Explorer{
+	background: url("browser/Pocket-Internet-Explorer.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+.browser.Opera-Mini{
+	background: url("browser/Opera-Mini.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Konqueror{
+	background: url("browser/Konqueror.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.iCab{
+	background: url("browser/iCab.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.OmniWeb{
+	background: url("browser/OmniWeb.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Firebird{
+	background: url("browser/Firebird.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Iceweasel{
+	background: url("browser/Iceweasel.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Shiretoko{
+	background: url("browser/Shiretoko.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Mozilla{
+	background: url("browser/Mozilla.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.Amaya{
+	background: url("browser/Amaya.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.Lynx{
+	background: url("browser/Lynx.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.Safari{
+	background: url("browser/Safari.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.iPhone{
+	background: url("browser/iPhone.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.iPod{
+	background: url("browser/iPod.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.iPad{
+	background: url("browser/iPad.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Chrome{
+	background: url("browser/Chrome.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.Android{
+	background: url("browser/Android.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.GoogleBot{
+	background: url("browser/GoogleBot.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Yahoo-Slurp{
+	background: url("browser/Yahoo-Slurp.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.W3C-Validator{
+	background: url("browser/W3C-Validator.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.BlackBerry{
+	background: url("browser/BlackBerry.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.IceCat{
+	background: url("browser/IceCat.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Nokia-Browser{
+	background: url("browser/Nokia-Browser.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+.browser.MSN-Browser{
+	background: url("browser/MSN-Browser.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+.browser.MSN-Bot{
+	background: url("browser/MSN-Bot.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Bing-Bot{
+	background: url("browser/Bing-Bot.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.Netscape-Navigator{
+	background: url("browser/Netscape-Navigator.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+.browser.Galeon{
+	background: url("browser/Galeon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+.browser.NetPositive{
+	background: url("browser/NetPositive.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+.browser.unknown{
+	background: url("browser/unknown.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
